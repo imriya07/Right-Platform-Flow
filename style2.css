@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 70%;
+    height: 180px;
+    background-color: rgba(65, 105, 225, 0.841);
+    margin-left: 210px;
+    border: 1.5px solid gray;
+}
+.slogan{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 20px;
+}
+.description{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.center{
+    text-align: center;
+}
+.center button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 600px;
+    color: white;
+    background-color: rgb(11, 199, 11);
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    
+}
+a:link {
+    text-decoration: none;
+}
+.popup{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    padding: 20px 30px;
+    background: pink;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    
+}
+.popup .form h2{
+    text-align: center;
+    color: #222;
+    margin: 10px 0px 20px;
+}
+.popup .form .form-element{
+    margin: 15px 0px;
+}
+.popup .form .form-element label{
+    font-size: 20px;
+    color: #222;
+}
+.popup .form .form-element input[type="text"]{
+    /* margin-top: 5px; */
+    display: block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+.popup .form .form-element input[type="password"]{
+    /* margin-top: 5px; */
+    display: block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+.popup .form .form-element Select{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+#togglePassword{
+    margin-left: 400px;
+    cursor: pointer;
+}
+.popup .form .form-element button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.068);
+    border-radius: 5px;
+}
+h3{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.flex-container .circle1 img {
+    width: 270px;
+    margin: 110px;
+    line-height: 270px;
+    font-size: 30px;
+    border-radius: 50%;
+  }
+  .flex-container .circle2 img {
+    width: 250px;
+    margin: 110px;
+    height: 250px;
+    font-size: 30px;
+    border-radius: 50%;
+  }
+  .flex-container .circle3 img {
+    width: 240px;
+    margin: 110px;
+    height: 240px;
+    font-size: 30px;
+    border-radius: 50%;
+  }
+  .flex-container .circle1 p{
+    margin-top: -80px;
+    margin-left: 80px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  .flex-container .circle2 p{
+    margin-top: -80px;
+    margin-left: 90px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  .flex-container .circle3 p{
+    margin-top: -80px;
+    margin-left: 90px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+.header1{
+    width: 30%;
+    height: 50px;
+    background-color: rgba(65, 105, 225, 0.841);
+    margin-left: 540px;
+    border: 1.5px solid gray;
+    margin-top: 50px;
+    text-align: center;
+}
+.header1 a{
+    font-size: 30px;
+    margin-top: 120px;
+    color: white;
+}
+.flex-container .circle1 img {
+    width: 270px;
+    margin: 110px;
+    line-height: 270px;
+    font-size: 30px;
+    border-radius: 50%;
+  }
+  .flex-container .circle4 img{
+    width: 270px;
+    margin: 110px;
+    height: 270px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+  }
+  .flex-container .circle5 img {
+    width: 250px;
+    margin: 110px;
+    height: 250px;
+    font-size: 30px;
+    border-radius: 50%;
+  }
+  .flex-container .circle6 img {
+    width: 240px;
+    margin: 110px;
+    height: 240px;
+    font-size: 30px;
+    border-radius: 50%;
+  }
+  .flex-container .circle7 {
+    width: 250px;
+    margin: 110px;
+    height: 200px;
+    font-size: 30px;
+    background-color:  rgba(65, 105, 225, 0.841);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .flex-container .circle7 .what{
+    margin-top: 80px;
+    margin-left: 10px;
+    text-align: center;
+  }
+  .flex-container .circle8 {
+    width: 250px;
+    margin: 110px;
+    height: 200px;
+    font-size: 30px;
+    background-color:  rgba(65, 105, 225, 0.841);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  }
+  .flex-container .circle8 .what1{
+    margin-top: 70px;
+    margin-left: 10px;
+    text-align: center;
+  }
+  .flex-container .circle9 {
+    width: 250px;
+    margin: 110px;
+    height: 200px;
+    font-size: 30px;
+    background-color:  rgba(65, 105, 225, 0.841);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  }
+  .flex-container .circle9 .what2{
+    margin-top: 50px;
+    margin-left: 10px;
+    text-align: center;
+  }
+  .more{
+text-align: center;
+  }
+  .more a{
+    font-size: 25px;
+  }
+  .header2{
+    width: 80%;
+    height: 180px;
+    background-color: rgb(6, 152, 6);
+    margin-left: 140px;
+    border: 1.5px solid gray;
+    margin-top: 50px;
+    text-align: center;
+}
+.header2 .start{
+    margin-top: 40px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header2 button{
+    margin-top: 40px;
+    height: 50px;
+    width: 140px;
+    font-size: 20px;
+    border-radius: 2px;
+    border: none;
+}
+.join p{
+    margin-left: 140px;
+    margin-top: 10px;
+}
+
+.inputValue {
+    position: relative;
+}
+.inputValue span {
+    position: absolute;
+    top: 32px;
+    left: 15px;
+}
+@media (max-width:425px){
+    .header{
+        width: 80%;
+        height: 240px;
+    }
+    .popup{
+        width: 400px;
+    }
+    #togglePassword{
+        margin-left: 300px;
+        cursor: pointer;
+    }
+    .head {
+
+        width: 523px;
+        
+    }
+    .head h3{
+        font-size: 25px;
+        margin-left: 242px;
+        
+    }
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .flex-container .circle1 img{
+        margin-left: 450px;
+    }
+    .flex-container .circle1 p{
+        margin-left: 350px;
+    }
+    .flex-container .circle2 img{
+        margin-left: 450px;
+    }
+    .flex-container .circle2 p{
+        margin-left: 350px;
+    }
+    .flex-container .circle3 img{
+        margin-left: 450px;
+    }
+    .flex-container .circle3 p{
+        margin-left: 350px;
+    }
+    .header1{
+        margin-left: 310px;
+        height: 70px;
+        width: 150px;
+    }
+    .head1 h3{
+        margin-left: 320px;
+        text-align: center;
+    }
+    .flex-container .circle4{
+        margin-left: 380px;
+    }
+    .flex-container .circle5{
+        margin-left: 380px;
+    }
+    .flex-container .circle6{
+        margin-left: 380px;
+    }
+    .head2 h3{
+        margin-left: 360px;
+    }
+    .flex-container .circle7{
+        margin-left: 490px;
+    }
+    .flex-container .circle8{
+        margin-left: 490px;
+    }
+    .flex-container .circle9{
+        margin-left: 490px;
+    }
+    .more {
+        width: 200%;
+    }
+    .header2{
+        margin-left: 230px;
+    }
+    .header2 .start {
+        margin-top: 20px;
+        color: white;
+        font-size: 22px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .header2 button{
+        margin-top: 10px;
+    }
+    .join p a{
+        margin-left: 100px;
+    }
+}
+@media (max-width:425px){
+  
+}
+@media (max-width:414px){
+ 
+}
+@media (max-width:390px){
+  
+    .header2 button{
+        margin-top: 10px;
+    }
+}
+
